@@ -32,7 +32,7 @@
 <body>
 
     <?PHP if(!isset($this->password)) : ?>
-    <form action="<?PHP echo $this->base; ?>login" method="post">
+    <form action="<?PHP echo $this->base; ?>?login=1" method="post">
     <ul id="login">
         <li><h1>selfoss login</h1></li>
          <li><label><?PHP echo trim(\F3::get('lang_login_username')); ?>:</label> <input type="text" name="username" id="username" /></li>

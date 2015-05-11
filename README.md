@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 selfoss
 =======
 
@@ -79,3 +80,7 @@ Special thanks to the great programmers of this libraries which will be used in 
 * twitter oauth library: https://github.com/abraham/twitteroauth
 
 Icon Source: http://blog.artcore-illustrations.de/aicons/
+=======
+# selfoss-login
+Testing Selfoss App with Custom Login
+>>>>>>> 3e2d505159d3b1e1270d0cf10fa81fd608979433

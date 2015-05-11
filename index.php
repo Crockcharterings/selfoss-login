@@ -9,7 +9,7 @@ if($lang!='0' && $lang!='')
 
 // init authentication
 $f3->set('auth', new \helpers\Authentication());
-
+$f3->set('DEBUG', 1);
 // define js files
 $f3->set('js', array(
     'public/js/jquery-2.1.1.min.js',
@@ -50,7 +50,7 @@ $f3->route('GET /',           'controllers\Index->home');     // html
 $f3->route('POST /',          'controllers\Index->home');     // html
 $f3->route('GET /password',   'controllers\Index->password'); // html
 $f3->route('POST /password',  'controllers\Index->password'); // html
-$f3->route('POST /login',      'controllers\Index->signin');  
+//$f3->route('POST /login',      'controllers\Index->signin');  
 $f3->route('GET /login',      'controllers\Index->login');    // json
 $f3->route('GET /logout',     'controllers\Index->logout');   // json
 $f3->route('GET /update',     'controllers\Index->update');   // text
